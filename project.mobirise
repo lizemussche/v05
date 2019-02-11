@@ -1,0 +1,549 @@
+{
+  "settings": {
+    "name": "LM",
+    "currentPage": "work.html",
+    "theme": {
+      "name": "purity",
+      "title": "PurityM",
+      "styling": {},
+      "additionalSetColors": []
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.8.6",
+    "siteFonts": [],
+    "uniqCompNum": 13,
+    "versionPublish": "4.8.6",
+    "screenshot": "screenshot.png"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_inherit": "header1",
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true,
+            "showArrow": false,
+            "contentAlign": "left",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-2.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff8e0",
+            "bgVideoRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/embed/TkojJCEX4mk?rel=0&amp;showinfo=0&autoplay=0&loop=0",
+              "rawUrl": "https://www.youtube.com/watch?v=TkojJCEX4mk",
+              "width": 1280,
+              "height": 720
+            },
+            "overlay": false,
+            "overlayColor": "#ffffff",
+            "overlayOpacity": 0.5
+          },
+          "title": "LIZE<b> </b>MUSSCHE",
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary-outline btn-primary\" href=\"work.html\" data-toolbar=\"-mbrBtnMove\">work</a>   <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary-outline btn-primary\" href=\"drawings.html\" data-toolbar=\"-mbrBtnMove\">drawings</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary-outline btn-primary\" href=\"contact.html\" data-toolbar=\"-mbrBtnMove\">contact</a>    ",
+          "alias": "purity/components",
+          "_tags": [
+            "Thema"
+          ],
+          "_name": "header4",
+          "_anchor": "header4-2",
+          "_styles": {
+            "H1": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-size": "46px",
+              "color": "#0275d8",
+              "text-align": "left"
+            },
+            "B": {
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700"
+            },
+            ".btn": {
+              "font-size": "15px",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            }
+          }
+        }
+      ]
+    },
+    "contact.html": {
+      "settings": {
+        "title": "Contact",
+        "order": 2
+      },
+      "components": [
+        {
+          "_inherit": "msg-box1",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": false,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "LIZE MUSSCHE",
+          "text": "textile design",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary-outline btn-primary\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">home</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary-outline btn-primary\" href=\"work.html\" data-toolbar=\"-mbrBtnMove\">work</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary-outline btn-primary\" href=\"drawings.html\" data-toolbar=\"-mbrBtnMove\">drawings</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Thema"
+          ],
+          "_name": "msg-box2",
+          "_styles": {
+            "H2": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-size": "25px",
+              "color": "#0275d8"
+            },
+            ".btn": {
+              "font-size": "14px"
+            },
+            "P": {
+              "color": "#ffffff",
+              "font-size": "17px",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            }
+          },
+          "_anchor": "msg-box2-6"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "CONTACT",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-secondary-outline\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">contact me</a>",
+          "form": {
+            "action": "lize.mussche@gmail.com",
+            "alerts": {
+              "success": "Thanks for contacting me!"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Name"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email"
+              },
+              "phone": {
+                "visible": false,
+                "title": "Phone",
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "alias": "purity/components",
+          "_tags": [
+            "Thema"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-7",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-size": "32px",
+              "color": "#000000"
+            }
+          }
+        }
+      ]
+    },
+    "work.html": {
+      "settings": {
+        "title": "Work",
+        "order": 3
+      },
+      "components": [
+        {
+          "_inherit": "msg-box1",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": false,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "LIZE MUSSCHE",
+          "text": "textile design",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary-outline btn-primary\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">home</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary-outline btn-primary\" href=\"drawings.html\" data-toolbar=\"-mbrBtnMove\">drawings</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary-outline btn-primary\" href=\"contact.html\" data-toolbar=\"-mbrBtnMove\">contact</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Thema"
+          ],
+          "_name": "msg-box2",
+          "_styles": {
+            "H2": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-size": "25px",
+              "color": "#0275d8"
+            },
+            ".btn": {
+              "font-size": "14px"
+            },
+            "P": {
+              "color": "#000000",
+              "font-size": "17px",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            }
+          },
+          "_anchor": "msg-box2-a"
+        },
+        {
+          "_params": {
+            "showBullets": true,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "bgColor": "#ffffff",
+            "images": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-0704-2-2000x2667.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-0704-2-2000x2667-800x1067.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-3977-2-2000x2667.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-3977-2-2000x2667-800x1067.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-2073-2-2000x1499.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-2073-2-2000x1499-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-3350-2-2000x2667.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-3350-2-2000x2667-800x1067.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-8832-2000x2739.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-8832-2000x2739-800x1096.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-9562-2-2000x2347.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-9562-2-2000x2347-800x939.jpg",
+                "alt": "",
+                "title": "",
+                "active": true
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-9226-2000x2667.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-9226-2000x2667-800x1067.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-9221-2-2000x2667.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-9221-2-2000x2667-800x1067.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-9211-2-2000x2667.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-9211-2-2000x2667-800x1067.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              }
+            ]
+          },
+          "articleLayout": false,
+          "alias": "purity/components",
+          "_tags": [
+            "Thema"
+          ],
+          "_name": "gallery1",
+          "_anchor": "gallery1-b"
+        }
+      ]
+    },
+    "drawings.html": {
+      "settings": {
+        "title": "Drawings",
+        "order": 1
+      },
+      "components": [
+        {
+          "_inherit": "msg-box1",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": false,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "LIZE MUSSCHE",
+          "text": "textile design",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary-outline btn-primary\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">home</a>  <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary-outline btn-primary\" href=\"work.html\" data-toolbar=\"-mbrBtnMove\">work</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary-outline btn-primary\" href=\"contact.html\" data-toolbar=\"-mbrBtnMove\">contact</a>",
+          "alias": "purity/components",
+          "_tags": [
+            "Thema"
+          ],
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-4",
+          "_styles": {
+            "H2": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-size": "25px",
+              "color": "#0275d8",
+              "text-align": "left"
+            },
+            ".btn": {
+              "font-size": "14px"
+            },
+            "P": {
+              "color": "#000000",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-size": "17px"
+            }
+          }
+        },
+        {
+          "_inherit": "gallery1",
+          "_params": {
+            "showBullets": true,
+            "images": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-9943-2000x2667.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-9943-2000x2667-800x1067.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-9939-2000x2667.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-9939-2000x2667-800x1067.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-9927-2000x1500.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-9927-2000x1500-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-9910-2000x2667.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-9910-2000x2667-800x1067.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-9905-2000x1500.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-9905-2000x1500-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-9923-2000x2667.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-9923-2000x2667-800x1067.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-9917-2000x2667.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-9917-2000x2667-800x1067.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-9937-2000x2667.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-9937-2000x2667-800x1067.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-9918-2000x2667.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-9918-2000x2667-800x1067.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-9931-2000x1500.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-9931-2000x1500-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-9908-2000x2667.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-9908-2000x2667-800x1067.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-9944-2000x2667.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-9944-2000x2667-800x1067.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-9933-2000x2667.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-9933-2000x2667-800x1067.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-9935-2000x2667.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-9935-2000x2667-800x1067.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-9929-2000x1500.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-9929-2000x1500-800x599.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-9925-2000x2667.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-9925-2000x2667-800x1067.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-9946-2000x2667.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-9946-2000x2667-800x1067.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-9948-2000x2667.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-9948-2000x2667-800x1067.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-9922-2000x2667.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-9922-2000x2667-800x1067.jpg",
+                "alt": "",
+                "title": "",
+                "active": true
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-9921-2000x2815.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-9921-2000x2815-800x1126.jpg",
+                "alt": "",
+                "title": "",
+                "active": false
+              }
+            ]
+          },
+          "articleLayout": true,
+          "alias": "purity/components",
+          "_tags": [
+            "Thema"
+          ],
+          "_name": "gallery2",
+          "_anchor": "gallery2-5"
+        }
+      ]
+    }
+  }
+}

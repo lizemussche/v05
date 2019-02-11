@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700);
+
+
+
+#header4-2 H1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 46px;
+  color: #0275d8;
+  text-align: left;
+}
+#header4-2 B {
+  font-family: 'Titillium Web', sans-serif;
+}
+#header4-2 .btn {
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+#msg-box2-6 H2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  color: #0275d8;
+}
+#msg-box2-6 .btn {
+  font-size: 14px;
+}
+#msg-box2-6 P {
+  color: #ffffff;
+  font-size: 17px;
+  font-family: 'Montserrat', sans-serif;
+}
+#form1-7 .mbr-section-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  color: #000000;
+}
+
+
+#msg-box2-a H2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  color: #0275d8;
+}
+#msg-box2-a .btn {
+  font-size: 14px;
+}
+#msg-box2-a P {
+  color: #000000;
+  font-size: 17px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+#msg-box2-4 H2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  color: #0275d8;
+  text-align: left;
+}
+#msg-box2-4 .btn {
+  font-size: 14px;
+}
+#msg-box2-4 P {
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+}
